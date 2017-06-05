@@ -88,6 +88,7 @@ public class PantallaPrincipal {
 				pago=Calcularpago(container.listaVehiculos.get(container.cocheActivo).getEntrada(), Salida);
 				aux="total: "+pago+" €";
 				lblPagar.setText(aux);
+				
 						}
 			   	
 						
@@ -153,7 +154,7 @@ public class PantallaPrincipal {
 		lblTotalAPagar.setBounds(306, 270, 83, 16);
 		frame.getContentPane().add(lblTotalAPagar);
 		
-		lblPagar.setBounds(431, 270, 56, 16);
+		lblPagar.setBounds(431, 270, 116, 16);
 		frame.getContentPane().add(lblPagar);
 		
 		textFieldimporte.setBounds(431, 319, 116, 22);
@@ -299,7 +300,7 @@ public class PantallaPrincipal {
 		}		
 		return aux;
 	}
-
+	
 	}
 
 
